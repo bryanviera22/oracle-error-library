@@ -1,0 +1,2102 @@
+[
+  {
+    "errorCode": "ICS-10001",
+    "errorMessage": "An error occurred while retrieving the integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nPERSISTENCE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10002",
+    "errorMessage": "An error occurred while retrieving the integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nCODE_OR_VERSION_NULL",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10003",
+    "errorMessage": "Integration is not found.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nNOT_FOUND_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10004",
+    "errorMessage": "An error occurred while deleting the integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nDELETE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10005",
+    "errorMessage": "An error occurred while exporting the integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nEXPORT_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10006",
+    "errorMessage": "Connection detail is missing for Integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nCONNECTIONDETAILS_MISSING",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10007",
+    "errorMessage": "You are editing an integration that has one or more incomplete\nconnections. Please update the connection(s): \"{0}\" has/have missing config\ninformation.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nCONNECTIONDETAILS_MISSING_EDIT",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10008",
+    "errorMessage": "You are activating an integration that has one or more incomplete\nconnections. Please update the connection(s): \"{0}\" has/have missing config\ninformation.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nCONNECTIONDETAILS_MISSING_ACTIVATE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10501",
+    "errorMessage": "The agent group cannot be retrieved due to an internal error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_GROU\nP_RETRIEVE_FAILURE_DUE_TO_PERSISTENCE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10502",
+    "errorMessage": "The agent group couldn't be created due to an internal error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_GROU\nP_CREATE_FAILURE_DUE_TO_PERSISTENCE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10503",
+    "errorMessage": "The agent group couldn't be created because input values are not\nvalid.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_GROU\nP_CREATE_FAILURE_DUE_TO_INVALID_ARGUMENT",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10504",
+    "errorMessage": "The agent group couldn't be created because the agent group name\nalready exists.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_GROU\nP_CREATE_FAILURE_DUE_TO_CONFLICT",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10505",
+    "errorMessage": "The agent group cannot be updated due to an internal error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_GROU\nP_UPDATE_FAILURE_DUE_TO_NONEXISTENCE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10507",
+    "errorMessage": "The agent group cannot be updated because it is locked.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_GROU\nP_UPDATE_FAILURE_DUE_TO_LOCK",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10508",
+    "errorMessage": "The agent group cannot be deleted because it is no longer available.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_GROU\nP_DELETE_FAILURE_DUE_TO_NONEXISTENCE\nChapter 1\n1-5",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10509",
+    "errorMessage": "The agent group cannot be deleted because it is locked.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_GROU\nP_DELETE_FAILURE_DUE_TO_LOCK",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10510",
+    "errorMessage": "The Agent couldn't be retrieved due to an internal error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_RETRI\nEVE_FAILURE_DUE_TO_PERSISTENCE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10511",
+    "errorMessage": "The Agent couldn't be created due to an internal error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_CREAT\nE_FAILURE_DUE_TO_PERSISTENCE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10512",
+    "errorMessage": "The Agent couldn't be created because input values are not valid.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_CREAT\nE_FAILURE_DUE_TO_INVALID_ARGUMENT",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10513",
+    "errorMessage": "The Agent couldn't be created because the Agent group name\nalready exists.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_CREAT\nE_FAILURE_DUE_TO_CONFLICT",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10514",
+    "errorMessage": "The Agent group cannot be updated due to an internal error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_UPDAT\nE_FAILURE_DUE_TO_PERSISTENCE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10515",
+    "errorMessage": "The Agent cannot be updated because it is no longer available.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_UPDAT\nE_FAILURE_DUE_TO_NONEXISTENCE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10516",
+    "errorMessage": "The Agent cannot be updated because it is locked.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_UPDAT\nE_FAILURE_DUE_TO_LOCK",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10517",
+    "errorMessage": "The Agent cannot be deleted because it is no longer available.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_DELET\nE_FAILURE_DUE_TO_NONEXISTENCE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10518",
+    "errorMessage": "The Agent cannot be deleted because it is locked.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_DELET\nE_FAILURE_DUE_TO_LOCK\nChapter 1\n1-8",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10519",
+    "errorMessage": "The certificate cannot be retrieved by alias name \"{0}\".",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CERTIFICATE_\nCOULD_NOT_RETRIEVE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10520",
+    "errorMessage": "The certificate cannot be added because the alias name \"{0}\"\nalready exists.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CERTIFICATE_\nCOULD_NOT_ADD_ALREADY_USED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10521",
+    "errorMessage": "The certificate cannot be added with alias name \"{0}\" because the\ncertificate is invalid.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CERTIFICATE_\nCOULD_NOT_ADD_BAD",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10522",
+    "errorMessage": "The certificate cannot be added with alias name \"{0}\" due to an\nerror.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CERTIFICATE_\nCOULD_NOT_ADD_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10523",
+    "errorMessage": "An error occurred while creating tracking metrics string.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.TRACKING_ME\nTRICS_HISTORY_GENERATE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10524",
+    "errorMessage": "An error occurred while parsing tracking metrics string.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.TRACKING_ME\nTRICS_HISTORY_PARSE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10525",
+    "errorMessage": "An error occurred while reading tracking metrics history.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.TRACKING_ME\nTRICS_HISTORY_READ_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10526",
+    "errorMessage": "An error occurred while writing tracking metrics history.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.TRACKING_ME\nTRICS_HISTORY_WRITE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10527",
+    "errorMessage": "An error occurred while cleaning up tracking metrics history.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.TRACKING_ME\nTRICS_HISTORY_CLEANUP_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10528",
+    "errorMessage": "An error occurred while get tracking metrics",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_GROU\nP_LIMIT_REACHED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10530",
+    "errorMessage": "Updating agent type is not supported.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_GROU\nP_UPDATE_TYPE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10531",
+    "errorMessage": "Deleting an agent group of type execution agent is not supported.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.OP_AGENT_HE\nARTBEAT_CREDENTIALS_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10602",
+    "errorMessage": "Agent heartbeat disabled due to missing property",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.OP_AGENT_HE\nARTBEAT_PROPERTY_MISSING",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10603",
+    "errorMessage": "Agent heartbeat received unexpected response from server.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.OP_AGENT_HE\nARTBEAT_UNEXPECTED_RESPONSE\nChapter 1\n1-13",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10902",
+    "errorMessage": "Error while reading wsdl resource file : {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.WSDL_PARSIN\nG_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10903",
+    "errorMessage": "Illegal or inappropriate argument : {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ILLEGAL_ARG\nUMENT",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10904",
+    "errorMessage": "Non-compliant schema namespace found : {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.NONCOMPLIAN\nT_NAMESPACE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10905",
+    "errorMessage": "Unable to read file : {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.UNABLE_TO_R\nEAD_FILE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10906",
+    "errorMessage": "Unable to write file : {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.UNABLE_TO_W\nRITE_FILE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10907",
+    "errorMessage": "Unable to transform file : {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.UNABLE_TO_T\nRANSFORM_FILE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10908",
+    "errorMessage": "Error reading container model file.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERROR_READI\nNG_CONTAINER_MODEL",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10909",
+    "errorMessage": "Error reading resource group model file.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERROR_READI\nNG_RESOURCE_GROUP_MODEL",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10910",
+    "errorMessage": "Resource file {0} not found.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.RESOURCE_FI\nLE_NOT_FOUND",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10911",
+    "errorMessage": "Error reading resource file {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERROR_READI\nNG_RESOURCE_FILE\nChapter 1\n1-16",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10912",
+    "errorMessage": "Failed to create directory {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.FAILED_TO_CR\nEATE_DIR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10913",
+    "errorMessage": "Unable to relativize path {0} against path {1}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.UNABLE_TO_R\nELATIVIZE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10914",
+    "errorMessage": "Invalid path resolution {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INVALID_PATH\n_RESOLUTION",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10915",
+    "errorMessage": "{0} filename exceeds maximum permitted length of 255 chars.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.MAXIMUM_FIL\nENAME_LENGTH_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10916",
+    "errorMessage": "File {0} already exists.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.FILE_ALREADY\n_EXISTS",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10917",
+    "errorMessage": "The directory domain_home/sdi/gsi does not exist, so unable to\nparse xml file : {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.GSI_DIRECTO\nRY_NOT_AVAILABLE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10918",
+    "errorMessage": "No xml file exists in the directory domain_home/sdi/gsi, so unable to\nparse xml file.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.GSI_FILE_NOT\n_AVAILABLE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10919",
+    "errorMessage": "Unable to parse the xml file.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.UNABLE_TO_P\nARSE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10920",
+    "errorMessage": "Agent installer download file not found.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_INSTA\nLLER_NOT_FOUND",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10921",
+    "errorMessage": "Error calling {0} constructor.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERROR_CALLI\nNG_CONSTRUCTOR\nChapter 1\n1-19",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10922",
+    "errorMessage": "Error writing wsdl file.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.WSDL_WRITIN\nG_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10923",
+    "errorMessage": "Failed to parse schema.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.FAILED_TO_PA\nRSE_SCHEMA",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10924",
+    "errorMessage": "Document Builder Factory failed.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DOCUMENT_B\nUILDER_FACTORY_FAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10925",
+    "errorMessage": "File read error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.FILE_READ_ER\nROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10926",
+    "errorMessage": "JAXB marshalling exception, object : {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.JAXB_MARSHA\nLLING_EXCEPTION",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10927",
+    "errorMessage": "JAXB unmarshalling exception.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.JAXB_UNMARS\nHALLING_EXCEPTION",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10928",
+    "errorMessage": "JAXB unmarshalling exception, input file : {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.JAXB_UNMARS\nHALLING_EXCEPTION_INPUTFILE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10929",
+    "errorMessage": "Error validating schema namespaces, URL : {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.WSDL_SCHEM\nA_NAMESPACE_VALIDATION_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10930",
+    "errorMessage": "User has successfully signed into ICS.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ICS_LOGIN_SU\nCCESS",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10931",
+    "errorMessage": "Request WSDL and JCA are null",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INVALID_REQ_\nWSDL_JCA\nChapter 1\n1-22",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10932",
+    "errorMessage": "WSDL parser is null; WSDL : {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.WSDL_PARSE\nR_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10933",
+    "errorMessage": "WSDL message part is null.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INVALID_WSDL\n_MSG_PART",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10934",
+    "errorMessage": "WSDL port type is null or size is zero.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INVALID_WSDL\n_PORT_TYPE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10935",
+    "errorMessage": "WSDL operation is null or size is zero.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INVALID_WSDL\n_OPS",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10936",
+    "errorMessage": "Cloud adapter artifact is null.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INVALID_CA_A\nRTIFACTS",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10937",
+    "errorMessage": "Cloud adapter filter is null.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INVALID_CA_FI\nLTER",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10938",
+    "errorMessage": "Resource path is null. Failed to get resource path from Container\nModel.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INVALID_RESO\nURCE_PATH",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10939",
+    "errorMessage": "Instance code is null. Failed to get instance code from cloud adapter\nfilter.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INVALID_INSTA\nNCE_CODE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10940",
+    "errorMessage": "The processing of the publisher integration failed.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROCESS_PU\nBLISHER_RESOURCES_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10941",
+    "errorMessage": "Error deleting directory {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.RESOURCE_MI\nSSING",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10943",
+    "errorMessage": "Cloud Application Adapter exception.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CLOUDAPP_AD\nAPTER_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10944",
+    "errorMessage": "Storage Cloud failure.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.STORAGE_CL\nOUD_FAILURE\nDocumented: Yes\nChapter 1\n1-26\n\nCause: Input Stream Storage cloud failure.\nAction: Action.\nICS-10945: Persistency Manager initialization failed.\nCategory: ICS Web Console\nType: SEVERE\nLevel: 1\nName:\noracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CLIENT_TRAC\nKING_BUSINESS_PM_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10946",
+    "errorMessage": "Unable to get Tracking Manager",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.UNABLE_TOGE\nT_TRACKING_MANAGER",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10947",
+    "errorMessage": "Cannot retrieve SecurityContext from AdfContext.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ADFCTX_CANN\nOT_RETRIEVE_SECURITY_CONTENT",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10948",
+    "errorMessage": "Failed to get schema from the specified path : {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.XSD_FAILED_T\nO_GET_SCHEMA",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10949",
+    "errorMessage": "We cannot retrieve the package because of an error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PACKAGE_PER\nSISTENCE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10950",
+    "errorMessage": "Input schema validation has failed.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.VALIDATE_INP\nUT_SCHEMA_FAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10951",
+    "errorMessage": "An error occurred while retrieving the package.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PACKAGE_ER\nROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10952",
+    "errorMessage": "An error occurred while retrieving the integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.FLOW_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10953",
+    "errorMessage": "An error occurred while retrieving the lookup.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.LOOKUP_ERR\nOR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10954",
+    "errorMessage": "An error occurred while retrieving the connection.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CONNECTION_\nERROR\nChapter 1\n1-29",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10955",
+    "errorMessage": "An error occurred while retrieving the agent data.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_PERSI\nSTENCE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10956",
+    "errorMessage": "An error occurred while retrieving the monitoring data.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.MONITORING_\nERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10957",
+    "errorMessage": "Container Model is null.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CONTAINER_M\nODEL_NULL",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10958",
+    "errorMessage": "An error occurred while deleting the integration {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_DEL\nETE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10959",
+    "errorMessage": "We cannot write to the CSV file because of an error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVM_EXPORT_\nTO_CSV_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10960",
+    "errorMessage": "Integration code or version is null.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_COD\nE_OR_VERSION_NULL",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10961",
+    "errorMessage": "Integration not found.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_NOT\n_FOUND_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10962",
+    "errorMessage": "Integration {0} cannot be deleted.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_CAN\nT_BE_DELETED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10963",
+    "errorMessage": "An error occurred while retrieving the integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_PER\nSISTENCE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10964",
+    "errorMessage": "We cannot import the lookup file because of an error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVM_IMPORT_\nFILE_EXCEPTION\nChapter 1\n1-32",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10965",
+    "errorMessage": "We cannot retrieve the lookup because of an error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVM_PERSIST\nENCE_READ_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10966",
+    "errorMessage": "No file is selected. Select a CSV file to import.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVM_IMPORT_\nNULL_TYPE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10967",
+    "errorMessage": "Lookups failed",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVMS_FAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10968",
+    "errorMessage": "We cannot export the lookup because an error occurred while\nprocessing the file.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVM_EXPORT_\nFILE_EXCEPTION",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10969",
+    "errorMessage": "The lookup is formatted incorrectly. The Name and Description line\nis invalid.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVM_NAME_D\nESC_MISMATCH",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10970",
+    "errorMessage": "Error converting \"{0}\" to valid URL.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.WSDL_RESOU\nRCE_URL_CONVERT_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10971",
+    "errorMessage": "Error processing WSDL message details, part : \"{0}\", name : \"{1}\",\nnamespace : \"{2}\".",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.WSDL_SCHEM\nA_MESSAGE_DETAILS_VALIDATION_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10972",
+    "errorMessage": "Error while creating WSDL bytearray",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.WSDL_GETTIN\nG_BYTEARRAY_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10973",
+    "errorMessage": "We cannot retrieve the connection because of an error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_PERSIST\nENCE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10974",
+    "errorMessage": "Problem occurred while reading the input stream.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CREDENTIAL_\nPROP_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10976",
+    "errorMessage": "We cannot refresh the metadata for connection \"{0}\".",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_INST_CA\nCHE_REFRESH_FAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10977",
+    "errorMessage": "Unable to test the connection. Error code : {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CONNECTION_\nTEST_ERROR_MSG_CODE\nDocumented: Yes\nChapter 1\n1-36\n\nCause: Unable to test the connection.\nAction: Action.\nICS-10978: Unable to test the connection.\nCategory: ICS Web Console\nType: SEVERE\nLevel: 1\nName:\noracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CONNECTION_\nTEST_ERROR_MSG",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10981",
+    "errorMessage": "One or more characters are invalid in search string, please retry with\nvalid characters.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_SEA\nRCH_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10982",
+    "errorMessage": "Integration \"{0}\" cannot be exported.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_CAN\nT_BE_EXPORTED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10983",
+    "errorMessage": "An error occurred while exporting the integration \"{0}\".",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_EXP\nORT_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10984",
+    "errorMessage": "The IAR file you selected is invalid. Select an IAR file that was\npreviously exported from Integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nIMPORT_INVALID_FILE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10985",
+    "errorMessage": "Integration \"{0}\" is not active so it cannot be deactivated.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_CAN\nT_BE_DEACTIVATED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10986",
+    "errorMessage": "Integration \"{0}\" cannot be deactivated for the following reason :",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_FAIL\nED_DEACTIVATION",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10987",
+    "errorMessage": "Integration \"{0}\" cannot be deactivated because of an internal error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.TECHNICAL_E\nRROR_DEACTIVATION",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10988",
+    "errorMessage": "Integration \"{0}\" is either already active or not ready for activation.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_CAN\nT_BE_ACTIVATED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10989",
+    "errorMessage": "Integration \"{0}\" cannot be activated for the following reason :",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.TECHNICAL_E\nRROR_ACTIVATION",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10991",
+    "errorMessage": "Error while retrieving integrations with same identifier :",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECTS_BY\n_CODE_READ_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10992",
+    "errorMessage": "Container Model creation failed.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CONTAINER_M\nODEL_CREATION_FAILED\nDocumented: Yes\nChapter 1\n1-40\n\nCause: Container model creation failed.\nAction: Action.\nICS-10993: Write string to integration failed.\nCategory: ICS Web Console\nType: SEVERE\nLevel: 1\nName:\noracle.ics.webconsole.common.resource.WebConsoleMessageKeys.WRITE_STRIN\nG_TO_PROJECT_FAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10994",
+    "errorMessage": "Error while retrieving the integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_EXI\nST_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10995",
+    "errorMessage": "Error while importing the integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nIMPORT_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10996",
+    "errorMessage": "Failed to create the lookup.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CONFIRM_CRE\nATE_DVM_FAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10997",
+    "errorMessage": "Failed to update the lookup.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CONFIRM_UPD\nATE_DVM_FAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10998",
+    "errorMessage": "Failed to lock the lookup.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.LOCK_DVM_FA\nILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-10999",
+    "errorMessage": "There is not enough information to clone this connection. Enter all\nthe required fields.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_INST_CLO\nNE_INPUT_NOT_CORRECT",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11000",
+    "errorMessage": "The connection cannot be cloned because it is no longer available.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CLONE_APP_I\nNSTANCE_FAILED_RESOURCE_NOT_FOUND",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11001",
+    "errorMessage": "The connection cannot be cloned because it is locked.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CLONE_APP_I\nNSTANCE_FAILED_RESOURCE_LOCK",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11002",
+    "errorMessage": "A connection already exists with the ID you entered. Enter a\ndifferent ID.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CLONE_APP_I\nNSTANCE_FAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11004",
+    "errorMessage": "The connection was cloned successfully.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CLONE_APP_I\nNSTANCE_SUCCESS",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11005",
+    "errorMessage": "This connection is locked by another user and cannot be processed\nright now.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_INST_LOC\nKED\nChapter 1\n1-44",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11006",
+    "errorMessage": "An exception occurred",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.UNIDENTIFIED\n_GENERIC_EXCEPTION",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11007",
+    "errorMessage": "Internal server error occurred.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTERNAL_SE\nRVER_ERROR_MESSAGE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11008",
+    "errorMessage": "We cannot delete the connection.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_INST_DEL\n_FAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11009",
+    "errorMessage": "There was an error while uploading the file.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CONNECTION_\nUPLOAD_EXCEPTION",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11010",
+    "errorMessage": "Credential Properties for provided Security Policy was not fetched\nfrom Connection Resource",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_CONFIG_\nCREATE_CREDPROP_FOR_POLICY_ERR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11011",
+    "errorMessage": "The connection cannot be retrieved because it is no longer\navailable.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_INST_FET\nCH_FAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11012",
+    "errorMessage": "The connection identifier cannot be null.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_INSTANC\nE_CODE_NULL",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11013",
+    "errorMessage": "The adapter cannot be retrieved because it is no longer available.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_TYPE_FE\nTCH_FAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11014",
+    "errorMessage": "The adapter name cannot be null.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_TYPE_NA\nME_NULL",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11015",
+    "errorMessage": "Connection \"{0}\" was created successfully.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SAVE_APP_INS\nTANCE_FAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11017",
+    "errorMessage": "The ID is required.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_INST_CO\nDE_REQD",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11018",
+    "errorMessage": "The connection name is required.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_INST_NA\nME_REQD\nDocumented: Yes\nChapter 1\n1-48\n\nCause: The connection name is required.\nAction: Action.\nICS-11019: The version cannot be empty.\nCategory: ICS Web Console\nType: SEVERE\nLevel: 1\nName:\noracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_INST_VER\nS_REQD",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11020",
+    "errorMessage": "icsversion.properties is not available at mwHome/osb/ics/ location.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ICS_PROPERTI\nES_FILE_NOT_FOUND",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11021",
+    "errorMessage": "Validation Error",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.VALIDATION_E\nRROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11022",
+    "errorMessage": "We failed to copy customization",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.COPY_CUSTO\nMIZATION_FAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11023",
+    "errorMessage": "No file is selected. Select a PAR file to import.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PACKAGE_IMP\nORT_NULL_TYPE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11024",
+    "errorMessage": "The selected connection cannot be used as a source. Try selecting\nanother connection.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INVALID_APP_I\nNST_SOURCE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11025",
+    "errorMessage": "The selected connection cannot be used as a target. Try selecting\nanother connection.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INVALID_APP_I\nNST_TARGET",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11026",
+    "errorMessage": "Unable to edit the target.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.TARGET_EDIT_\nFAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11027",
+    "errorMessage": "Unable to edit the enrichment response.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ENRICHMENT_\nRESPONSE_EDIT_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11028",
+    "errorMessage": "Unable to edit the source.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ENRICHMENT_\nREQUEST_EDIT_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11030",
+    "errorMessage": "Mapper Error : {0}",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.MAPPER_ERR\nOR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11031",
+    "errorMessage": "You are trying to activate a subscriber but the associated publisher\n\"{0}\" is not in the required \"{1}\" state.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTG_ACT_SU\nBSCRIBER_PUBLISHER_NOT_REQUIRED_STATE\nChapter 1\n1-52",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11032",
+    "errorMessage": "We cannot generate the WSDL.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.WSDL_GENER\nATOR_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11033",
+    "errorMessage": "We cannot delete the lookup.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DELETE_DVM_\nFAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11034",
+    "errorMessage": "Lookup \"{0}\" deleted successfully.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DELETE_DVM_\nSUCCESS",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11035",
+    "errorMessage": "Invalid lookup in the system.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INVALID_DVM_\nERROR_MSG",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11036",
+    "errorMessage": "We cannot save the lookup.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SAVE_DVM_FA\nILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11037",
+    "errorMessage": "The PAR file you selected is invalid. Select a PAR file that was\npreviously exported from Integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PACKAGE_IMP\nORT_INVALID_FILE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11038",
+    "errorMessage": "Unable to export package {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PACKAGE_EXP\nORT_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11039",
+    "errorMessage": "Connection \"{0}\" was saved successfully.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SAVE_APP_INS\nTANCE_SUCCESS",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11100",
+    "errorMessage": "The lookup you are importing already exists.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVM_IMPORT_\nDUPLICATE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11101",
+    "errorMessage": "The file type you selected is invalid. Select a CSV file to import.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVM_IMPORT_\nINVALID_TYPE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11102",
+    "errorMessage": "We cannot export the lookup because the input was null.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVM_EXPORT_\nNULL_INPUT",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11103",
+    "errorMessage": "The lookup format is not valid because an adapter name is not\ncorrect. Verify the name of the adapters and try again.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVM_IMPORT_\nAPP_TYPE_NAME_INVALID",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11104",
+    "errorMessage": "The lookup format is not valid because it contains duplicate\nadapters. Verify the import file and try again.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVM_IMPORT_\nMIN_COL",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11106",
+    "errorMessage": "The lookup file is formatted incorrectly. The number of cells and\ncolumns do not match.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVM_IMPORT_\nCOL_CELL_MISMATCH",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11107",
+    "errorMessage": "The lookup format is invalid. You need at least two columns\n(adapters).",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVM_EXPORT_\nCOL_CELL_MISMATCH",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11109",
+    "errorMessage": "We cannot save the lookup because an error occurred while\npersisting the lookup file.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.DVM_PERSIST\nENCE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11110",
+    "errorMessage": "Illegal or inappropriate arguments : {0}, {1}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.EXPLICITDATE\n_CREATION_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11112",
+    "errorMessage": "Application type named {0} not found.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_TYPE_NO\nT_FOUND",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11113",
+    "errorMessage": "Illegal state: {0} = {1}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ILLEGAL_STAT\nE_WITH_PARAMS\nDocumented: Yes\nChapter 1\n1-59\n\nCause: Illegal state.\nAction: Action.\nICS-11114: Format to readable xml failed.\nCategory: ICS Web Console\nType: SEVERE\nLevel: 1\nName:\noracle.ics.webconsole.common.resource.WebConsoleMessageKeys.FORMAT_TO_R\nEADABLE_XML",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11115",
+    "errorMessage": "Invalid argument(s) in [{0}]; {1}",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INVALID_ARGU\nMENTS",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11116",
+    "errorMessage": "{0} \"{1}\" not found.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.OBJ_NOT_FOU\nND_IN_BINDING_CONTAINER",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11117",
+    "errorMessage": "Failed to initialize health checking module.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.HEALTH_CHEC\nK_INIT_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11118",
+    "errorMessage": "Failed to check Aggregator availability.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.HEALTH_CHEC\nK_AGGREGATOR_AVAILABILITY_CHECK_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11119",
+    "errorMessage": "Failed to check Managed Server availability.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.HEALTH_CHEC\nK_MANAGED_SERVER_AVAILABILITY_CHECK_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11120",
+    "errorMessage": "Failed to check OSB availability.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.HEALTH_CHEC\nK_OSB_AVAILABILITY_CHECK_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11121",
+    "errorMessage": "Failed to check OMCS availability.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.HEALTH_CHEC\nK_OMCS_AVAILABILITY_CHECK_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11122",
+    "errorMessage": "Failed to check DB availability.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.HEALTH_CHEC\nK_DB_AVAILABILITY_CHECK_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11123",
+    "errorMessage": "Failed to check WSM availability.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.HEALTH_CHEC\nK_WSM_AVAILABILITY_CHECK_FAILURE\nChapter 1\n1-62",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11200",
+    "errorMessage": "Generic Web Service (SOAP)",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nGENERIC_WEB_SERVICE_TITLE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11201",
+    "errorMessage": "ICS Messaging Service",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ICS_MESSAGI\nNG_SERVICE_TITLE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11202",
+    "errorMessage": "Unconfigured",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.UNCONFIGURE\nD",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11203",
+    "errorMessage": "The connection test was successful!",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.APP_INST_TES\nT_SUCCESS",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11204",
+    "errorMessage": "Connection not found.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CONNECTION_\nNOT_FOUND_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11205",
+    "errorMessage": "This integration cannot be imported.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_CAN\nT_BE_IMPORTED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11206",
+    "errorMessage": "Package not found.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PACKAGE_NO\nT_FOUND_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11207",
+    "errorMessage": "Prebuilt package cannot be deleted.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PACKAGE_CA\nNT_BE_DELETED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11208",
+    "errorMessage": "This package already exists and therefore cannot be imported.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PACKAGE_CA\nNT_BE_IMPORTED_DUE_TO_CONFLICT",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11209",
+    "errorMessage": "An error occurred while retrieving a package file from Storage Cloud\nService.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.BAD_REQUEST\n_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11211",
+    "errorMessage": "Unauthorized access",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.UNAUTHORIZE\nD_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11212",
+    "errorMessage": "Access denied",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.FORBIDDEN_E\nRROR\nDocumented: Yes\nChapter 1\n1-66\n\nCause: Access denied\nAction: Action.\nICS-11213: Internal server error occurred. Please try again later\nCategory: ICS Web Console\nType: INFO\nLevel: 1\nName:\noracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTERNAL_SE\nRVER_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11214",
+    "errorMessage": "We cannot get filename from {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.FAILED_TO_GE\nT_FILENAME",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11215",
+    "errorMessage": "We cannot find {0} resource.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.RESOURCE_N\nOT_FOUND",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11216",
+    "errorMessage": "Failed to create the lookup. Error Code :",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CREATE_DVM_\nFAILED_ERROR_CODE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11217",
+    "errorMessage": "Illegal state.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ILLEGAL_STAT\nE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11218",
+    "errorMessage": "Illegal state: {0} closed.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ILLEGAL_STAT\nE_MODEL_CLOSED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11219",
+    "errorMessage": "Mapper input and/or output message not defined. Review\napplication messages.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.MAPPER_CON\nTEXT_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11220",
+    "errorMessage": "Mapper Generic Error",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.MAPPER_GEN\nERIC_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11221",
+    "errorMessage": "Enter all the required fields.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ENTER_ALL_T\nHE_REQUIRED_FIELDS",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11226",
+    "errorMessage": "Integration code : {0}, version : {1} had bad data. It was fixed.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_MO\nDEL_WIRE_FIXED\nChapter 1\n1-69",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11227",
+    "errorMessage": "An error occurred while trying to fix the integration, code : {0},\nversion : {1}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_MO\nDEL_WIRE_FIX_FAILED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11228",
+    "errorMessage": "Removed bad wire from the integration, name : {0}, code : {1},\nversion : {2}, source URI : {3}, target URI : {4}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_MO\nDEL_REMOVE_BAD_WIRE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11229",
+    "errorMessage": "Added wire to integration, name : {0}, code : {1}, version : {2},\nsource URI : {3}, target URI : {4}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.PROJECT_MO\nDEL_ADD_WIRE\nDocumented: Yes\nChapter 1\n1-70\n\nCause: Added wire to integration, name:{0}, code:{1}, version:{2}, sourceUri:{3},\ntargetUri:{4}.\nAction: Action.\nICS-11230: Error executing \"Run Now\" for integration : {0}. Error: Unable to\nretrieve JCA file\nCategory: ICS Web Console\nType: SEVERE\nLevel: 1\nName:\noracle.ics.webconsole.common.resource.WebConsoleMessageKeys.JCA_FILE_NOT\n_FOUND_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11231",
+    "errorMessage": "Integration : {0} submitted to ess successfully with request id : {1}",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nESS_JOB_SUBMIT_SUCCESS_MESSAGE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11232",
+    "errorMessage": "Attempting to add auto resubmission parameters to an integration\nthat does not contain a source application.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AUTORESUBMI\nT_INVALID_STATE_NO_SOURCE_APPL\nDocumented: Yes\nChapter 1\n1-71\n\nCause: Attempting to add auto resubmission parameters to an integration that does\nnot contain a source application.\nAction: First define the source application, which defines the message context, and\nthen define the auto resubmission parameters.\nICS-11233: Internal error. Auto resubmission parameters not found or not\nproperly defined in integration.\nCategory: ICS Web Console\nType: SEVERE\nLevel: 1\nName:\noracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AUTORESUBMI\nT_INVALID_STATE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11234",
+    "errorMessage": "Auto resubmission parameters not found or not properly defined.\nIntegration model is missing {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AUTORESUBMI\nT_INVALID_STATE_DETAIL",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11235",
+    "errorMessage": "The Agent Instance metrics couldn't be retrieved due to an internal\nerror.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGENT_METRI\nCS_RETRIEVE_FAILURE_DUE_TO_PERSISTENCE_ERROR\nChapter 1\n1-72",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11300",
+    "errorMessage": "Error occurred. Error {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ROUTING_EXP\nRESSION_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11301",
+    "errorMessage": "In trial mode, no more than two asynchronous integrations may be\nactive at any time. De-activate another asynchronous integration before\nactivating this integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nTOO_MANY_ACTIVATED",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11302",
+    "errorMessage": "Enrichment operations must be synchronous. Use a synchronous\noperation for the enrichment.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nSYNCHRONOUS_ENRICHMENT\nDocumented: Yes\nChapter 1\n1-73\n\nCause: Enrichment operations must be synchronous.\nAction: Use a synchronous operation for the enrichment.\nICS-11303: An error occurred while initializing monitoring API\nCategory: ICS Web Console\nType: SEVERE\nLevel: 1\nName:\noracle.ics.webconsole.common.resource.WebConsoleMessageKeys.MONITORING_\nAPI_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11304",
+    "errorMessage": "One or more managed servers are not available. Monitoring data\nmight not be displayed properly.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.MANAGED_SE\nRVERS_NOT_AVAILABLE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11305",
+    "errorMessage": "Managed server that has Aggregator is not available. Monitoring\ndata might not be displayed properly.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.AGGREGATOR\n_SERVER_NOT_AVAILABLE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11306",
+    "errorMessage": "Integration \"{0}\" is unavailable in runtime store. Synchronizing the\nruntime and designtime by updating the Integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INTEGRATION_\nUNAVBL_IN_RUNTIME",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-11310",
+    "errorMessage": "Invalid Run Id. Only Numbers are permitted.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.INVALID_RUNI\nD",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12001",
+    "errorMessage": "Error executing \"Run Now\" for integration : {0}. Error : {1}",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_RU\nN_NOW_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12002",
+    "errorMessage": "Error occurred while creating the schedule.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_CR\nEATE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12003",
+    "errorMessage": "Error occurred while updating the schedule.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_UP\nDATE_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12004",
+    "errorMessage": "Error occurred while reading the schedule.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_RE\nAD_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12005",
+    "errorMessage": "Unable to start schedule for integration: {0}. Error: {1}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_ST\nART_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12006",
+    "errorMessage": "Unable to stop schedule for integration: {0}. Error: {1}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_ST\nOP_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12007",
+    "errorMessage": "Schedule stopped successfully for integration: {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_ST\nOP_SUCC",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12008",
+    "errorMessage": "Unable to pause schedule for integration: {0}. Error: {1}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_PA\nUSE_ERROR\nChapter 1\n1-77",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12009",
+    "errorMessage": "Schedule paused successfully for integration {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_PA\nUSE_SUCC",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12010",
+    "errorMessage": "Unable to resume schedule for integration: {0}. Error: {1}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_RE\nSUME_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12011",
+    "errorMessage": "Schedule resumed successfully for integration {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_RE\nSUME_SUCC",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12012",
+    "errorMessage": "Schedule request for Integration: {0} submitted successfully with\nrequestId: {1}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULED_J\nOB_SUBMIT_SUCCESS_MESSAGE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12013",
+    "errorMessage": "\"Run Now\" request for Integration: {0} submitted successfully with\nrequestId: {1}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_RU\nN_NOW_JOB_SUBMIT_SUCCESS_MESSAGE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12014",
+    "errorMessage": "Failed to pause jobs with request ids: {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_PA\nUSE_FAILED_REQUESTIDS_MSG",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12015",
+    "errorMessage": "Schedule for integration {0} paused with errors. Check log for more\ndetails.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_PA\nRTIAL_PAUSE_SUCCESS_MESSAGE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12016",
+    "errorMessage": "Failed to resume jobs with request ids: {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_RE\nSUME_FAILED_REQUESTIDS_MSG",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12017",
+    "errorMessage": "Schedule for integration {0} resumed with errors. Check log for more\ndetails.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_PA\nRTIAL_RESUME_SUCCESS_MESSAGE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12018",
+    "errorMessage": "Failed to stop jobs with request ids: {0}.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_ST\nOP_FAILED_REQUESTIDS_MSG",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12019",
+    "errorMessage": "Schedule for integration {0} stopped with errors. Check log for more\ndetails.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_PA\nRTIAL_STOP_SUCCESS_MESSAGE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12020",
+    "errorMessage": "An error occurred while retrieving the schedule.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.SCHEDULE_ER\nROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-12021",
+    "errorMessage": "An error occurred while retrieving the schedule. Check code and\nversion.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_BUSINESS_PM_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14001",
+    "errorMessage": "Project resource not Found.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_PROJECT_RESOURCE_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14002",
+    "errorMessage": "An error occurred while retrieving records for Errors By Integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_EI_PERSISTANCE_FAILURE\nDocumented: Yes\nChapter 1\n1-82\n\nCause: An error occurred while retrieving records for Errors By Integration.\nAction: Action.\nICS-14003: An error occurred while retrieving records for Errors By Connection.\nCategory: ICS Web Console\nType: SEVERE\nLevel: 1\nName:\noracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_EC_PERSISTANCE_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14004",
+    "errorMessage": "An error occurred while retrieving apptype for Errors By\nConnection.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_EC_APPTYPE_RETRIEVAL_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14005",
+    "errorMessage": "An error occurred while retrieving project resources for Error\nMessage Details.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_ED_PROJECTRESOURCES_RETRIEVAL_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14006",
+    "errorMessage": "An error occurred while retrieving records for Error Message\nDetails.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_ED_PERSISTANCE_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14007",
+    "errorMessage": "An error occurred while invoking composer instance from Error\nMessage Details.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_ED_COMPOSER_INSTANCE_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14008",
+    "errorMessage": "An error occurred while recovering fault from Error Message Details.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_ED_RECOVER_INSTANCE_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14009",
+    "errorMessage": "An error occurred while recovering faults from Error Message\nDetails.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_ED_RECOVER_INSTANCES_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14010",
+    "errorMessage": "An error occurred while recovering faults from Errors By Integration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_EI_RECOVER_INTEGRATION_INSTANCES_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14011",
+    "errorMessage": "An error occurred while recovering faults from Errors By\nConnection.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_EC_RECOVER_CONNECTION_INSTANCES_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14012",
+    "errorMessage": "An error occurred while discarding error instance from Error\nMessage Details.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_ED_INSTANCES_DISCARD_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14014",
+    "errorMessage": "An error occurred while discarding error instances from Errors By\nIntegration.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_EI_INTEGRATION_DISCARD_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14015",
+    "errorMessage": "An error occurred while discarding error instances from Errors By\nConnection.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_FUTURE_TASK_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14017",
+    "errorMessage": "An error occurred while discarding error instance from Error\nMessage Details.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_ED_AUTORECOVERABLE_FAULTIDS_RETRIEVAL_FAILURE",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14018",
+    "errorMessage": "An error occurred while error hospital factory creation.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_FACTORY_MANAGER_FAILURE\nChapter 1\n1-87",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14019",
+    "errorMessage": "The resubmission for connection couldn't be completed due to an\ninternal error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_EC_RESUBMISSION_INTERNAL_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14020",
+    "errorMessage": "The discard for connection couldn't be completed due to an internal\nerror.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_EC_DISCARD_INTERNAL_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14021",
+    "errorMessage": "The resubmission for integration couldn't be completed due to an\ninternal error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_EI_RESUBMISSION_INTERNAL_ERROR\nDocumented: Yes\nChapter 1\n1-88\n\nCause: The resubmission for integration couldn't be completed due to an internal\nerror.\nAction: Action.\nICS-14022: The discard for integration couldn't be completed due to an internal\nerror.\nCategory: ICS Web Console\nType: SEVERE\nLevel: 1\nName:\noracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_EI_DISCARD_INTERNAL_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14023",
+    "errorMessage": "The resubmission for error instance couldn't be completed due to an\ninternal error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_ED_RESUBMISSION_INTERNAL_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14024",
+    "errorMessage": "The discard for error instance couldn't be completed due to an\ninternal error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_ED_DISCARD_INTERNAL_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14025",
+    "errorMessage": "The resubmission for error instances couldn't be completed due to\nan internal error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_ED_MULTIRESUBMISSION_INTERNAL_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14026",
+    "errorMessage": "The discard for error instances couldn't be completed due to an\ninternal error.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_ED_MULTIDISCARD_INTERNAL_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14027",
+    "errorMessage": "An error occurred while cloning the integration",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.CLONE_INTEG\nRATION_ERROR",
+    "errorType": "OIC"
+  },
+  {
+    "errorCode": "ICS-14028",
+    "errorMessage": "An error occurred while calculating size of Error Instances for Error\nMessage Details.",
+    "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_ED_SIZE_CALCULATE_ERROR",
+    "errorType": "OIC"
+  }
+  {
+    "errorCode": "ORA-06512",
+    "errorMessage": "PL/SQL: Error in execution block or procedure.",
+    "stackTrace": "at line inside stored procedure or anonymous block",
+    "errorType": "DB"
+  },
+  {
+    "errorCode": "ORA-06531",
+    "errorMessage": "Reference to uninitialized collection",
+    "stackTrace": "java.sql.SQLException: ORA-06531: Reference to uninitialized collection ORA-06512",
+    "errorType": "DB"
+  },
+  {
+    "errorCode": "CloudAdapterException",
+    "errorMessage": "Couldn't authenticate while querying OCI Object Storage.",
+    "stackTrace": "oracle.tip.tools.adapters.cloud.api.CloudAdapterException",
+    "errorType": "OCI"
+  },
+  {
+    "errorCode": "OCI-FUNCTION-AUTH",
+    "errorMessage": "Couldn't authenticate while invoking an OCI Function.",
+    "stackTrace": "Authentication failure during OCI Function action",
+    "errorType": "OCI"
+  },
+  {
+    "errorCode": "HTTP 201",
+    "errorMessage": "Created \u2014 request has succeeded and has led to the creation of a resource.",
+    "stackTrace": "HTTP response from REST API",
+    "errorType": "HTTP"
+  },
+  {
+    "errorCode": "HTTP 403",
+    "errorMessage": "Forbidden \u2014 client does not have access rights to the content.",
+    "stackTrace": "HTTP response from REST API or VB integration",
+    "errorType": "HTTP"
+  },
+  {
+    "errorCode": "Couldn't authenticate while querying OCI Object Storage",
+    "errorMessage": "Authentication failure when using OCI Object Storage action in migrated tenancy.",
+    "stackTrace": "oracle.tip.tools.adapters.cloud.api.CloudAdapterException",
+    "errorType": "OCI"
+  }
+  {
+    "errorCode": "VB-OIC-404",
+    "errorMessage": "Invoking OIC REST API from Service Connection returns 404 error",
+    "stackTrace": "Network Error Unable to read the integrations from [vb-catalog://backends/ics/ic/api/integration/v1/integrations]",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-OIC-401",
+    "errorMessage": "Authentication failing on OIC service connections",
+    "stackTrace": "Connection fails with 401 HTTP error code when using incorrect auth settings for OIC REST Triggers.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-SC-001",
+    "errorMessage": "Integration Applications not listed in Service Catalog",
+    "stackTrace": "Service Catalog does not show applications from Oracle Integration 3 projects.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-IDCS-400",
+    "errorMessage": "Error testing connection to IDCS REST APIs with OAuth User Assertion Authentication",
+    "stackTrace": "Invalid URI or service scope error when using Service Tester.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-HEADER-ERROR",
+    "errorMessage": "Create service connection wizards ignore secure header setting",
+    "stackTrace": "Service connection test fails unless an example response is saved manually in the wizard.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-OIC-100",
+    "errorMessage": "Integration endpoint not listed in catalog",
+    "stackTrace": "Only the first 100 active integrations with valid swagger URLs are listed in the catalog.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-OIC-0063",
+    "errorMessage": "Error creating service connection to Integration Applications from catalog",
+    "stackTrace": "Swagger returned from OIC includes unsupported property 'X-OIC-CONSUMPTION-WARNING-CASDK-0063'",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-CORS-119",
+    "errorMessage": "CORS error when connecting to Oracle Integration",
+    "stackTrace": "Missing Allow origin header; caused by Chrome 119+ stricter CORS handling",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-SSL-CERT",
+    "errorMessage": "Service connection using self-signed certificate not working",
+    "stackTrace": "Expired self-signed certificates after 398 days cause app failure unless renewed",
+    "errorType": "Visual Builder"
+  }
+  {
+    "errorCode": "VB-KNOWN-01",
+    "errorMessage": "Action required for Digital Customer Service customers 20C-23A",
+    "stackTrace": "Digital Customer Service customers who created visual applications with VB Studio from 20C through 23A will need to take action after migrating to VB Studio 24.10 (24D).  This migration disables the implicit grant for service connections, which means data can\u2019t be loaded into your visual app. You\u2019ll know you\u2019re affected if you see a persistent gray loading indicator for the service request list. To resolve this, change the authentication type used in the Oracle Cloud Applications backend and service connection: In your visual application, open the Services pane in the Navigator. Click Backends. Click Oracle Cloud Applications, then the Servers tab. Find the server Production Knowledge Service with user proxy and click the pencil icon. In the Authentication for Logged-In Users drop-down list, select Oracle Cloud Account. Click Save. Additionally, if you built a visual application that depends on the 23A knowledge-service service connection, you\u2019ll need to change the authentication type there, too: In the Navigator's Services pane, click Service Connections. Click knowledge-service, then the Servers tab. Click the pencil icon next to Production Knowledge Service with user proxy. In the Authentication for Logged-In Users drop-down list, select Oracle Cloud Account. Click Save.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-02",
+    "errorMessage": "Component not loading in page after upgrading application",
+    "stackTrace": "After upgrading your application, some components might not load data correctly when bound to an ADP variable, if the application/page's JSON / JavaScript files contain configurations or code that returns invalid JSON data.  ADP data in a JSON file needs to be assigned a valid JSON value. ADP data that is assigned a value from the result of a previous action (for example, a call module action or REST action), must also be valid JSON. When a non-JSON value (such as JavaScript values like NaN or Infinity) is provided, you should choose the correct JSON value that should be used and then replace it.  Visual Builder upgrade tools might not be equipped to correctly upgrade the application when invalid JSON is present.  The workaround is to ensure that all values in JSON files are valid JSON.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-03",
+    "errorMessage": "Filter field populated with cached data",
+    "stackTrace": "When using the Filter field in the Designer, Chrome's Autofill form data feature might populate the field in some panels and dialogs with cached data. For example, when using the Filter field in the Navigator, the field might display your cached email address. If cached data is appearing in the field, clear Chrome's cached Autofill form data:  Click the three dots at the top right of the Chrome browser window to open the Chrome options menu. Select More tools > Clear browsing data in the menu. Open the Advanced tab in the Clear browsing data dialog box. Select All Time in the Time range dropdown list. Select Autofill form data in the list. Click Clear Data.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-04",
+    "errorMessage": "Groovy log messages not displayed though tracing is enabled",
+    "stackTrace": "The log messages for Groovy scripts in your application might not appear in the Groovy Logs tab in the Trace pane, though tracing is enabled.  If the Groovy logs are not appearing in the Trace pane, open the Logs pane, and then click Enable Logging. The Groovy logs will now be displayed in the Trace pane when you enable tracing.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-05",
+    "errorMessage": "Update deprecated Oracle SaaS application template theme",
+    "stackTrace": "The sample SaaS R13 LightBlue theme (ApplicationsCloudUITheme) is deprecated as it relies on the deprecated Alta theme. If any of your existing apps use this theme, you are strongly encouraged to convert them to use the Redwood or Stable themes, and then customize the theme using CSS variables.  The sample SaaS R13 LightBlue theme update for Oracle Visual Builder 22.10 is the final planned update.  For existing apps that still use the SaaS R13 LightBlue theme, you'll need to apply the update before running the app with Oracle Visual Builder 22.10. To upgrade the theme, download the updated version of the Oracle SaaS R13 theme files (ApplicationsCloudUI-n.n.n.zip) from the vbcs-samples repository on GitHub, import the updated theme resources into your application, and select the updated theme in your web app's Settings editor. For details on the upgrade steps, see Upgrading the Sample R13 SaaS LightBlue Theme for Visual Builder.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-06",
+    "errorMessage": "Cannot switch theme in application settings",
+    "stackTrace": "You might not be able to upgrade an application's theme because the theme dropdown list is not available or is not working properly.  If you run into this situation, the workaround is to upgrade the application:  Upgrade the app version to the next higher version (for example, from version 21.07 to 21.10). Upgrade the application's theme.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-07",
+    "errorMessage": "Visual Builder not listed in Oracle Cloud Infrastructure Console",
+    "stackTrace": "When trying to open the Visual Builder instances page in the Oracle Cloud Infrastructure Console, you might not see Visual Builder listed in the navigation menu.  To open the Visual Builder instances page:  Confirm you're signed in to the Oracle Cloud Infrastructure Console using your IDCS account, and that you've been assigned the required role. When signed in with an IDCS account, your user name will be similar to oracleidentitycloudservice/exampleemail@example.com if you open the user menu.  Click OCI Classic Services in the navigation menu, then click Visual Builder.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-08",
+    "errorMessage": "Loading JSON using Text module stops Persistence Toolkit working",
+    "stackTrace": "If you add JSON resources to your app, as shown in these code snippets, the Oracle Offline Persistence Toolkit stops working.  // Add resource define([   'text!resources2/js/test.json' ], function(  // Where resources2 is defined as:   \"requirejs\": {         \"paths\": {             \"resources2\": \"{{ location.pathname + (window.vbInitConfig.BASE_URL_TOKEN ?                            window.vbInitConfig.BASE_URL_TOKEN + '/' : '') + 'resources'}}\"         }     }, The following error occurs when the app tries to load the Oracle Offline Persistence Toolkit.  Failed to load offline handler from /ic/builder/rt/otf/2.0/webApps/foo/ version_279023731935549663/app-flow.js: Error: importScripts failed for /ic/builder/rt/otf/2.0/ webApps/foo/version_279023731935549663/app-flow.js at /ic/builder/rt/otf/2.0/webApps/foo/versio n_279023731935549663/app-flow.js https://requirejs.org/docs/errors.html#importscripts Two possible workarounds exist to address this issue:  Wrap the JSON file in a JavaScript file and load the JavaScript file. Use the Fetch API to load the JSON file in the offline handler.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-09",
+    "errorMessage": "Error testing connection to IDCS REST APIs with OAuth User Assertion Authentication type",
+    "stackTrace": "Testing a service connection representing an IDCS REST API with OAuth 2 User Assertion Authentication type in the Test tab will not work. In doing so, you will face an error like:  { \"type\": \"abcs://proxy_problem/oauth/design_allowed_scope\", \"title\": \"Invalid URI\", \"detail\": \"Cannot process \\\"https://<idcs>.identity.oraclecloud.com/admin/v1/Me\\\"\", \"status\": 400, \"o:errorDetails\": [ { \"type\": \"abcs://proxy_problem/auth/scope/update\", \"title\": \"Invalid service scope\",       \"detail\": \"Cannot process service scope \\\"urn:opc:idm:t.user.me\\\" in IDCS, for URI \\\" {1} \\\"\", \"status\": 400 } ] } This limitation only exists in the Service Tester (Test tab). Creating a web app and calling the same REST API from the web app works without any issues.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-10",
+    "errorMessage": "Error on performing any Process related action with anonymous access",
+    "stackTrace": "Process related tasks are not supported with anonymous access. If you try to access any process related tasks (for example, Start Process/Perform Task) from a web or mobile app having anonymous access, you might run into this error.  { \"type\": \"vbcs://process_service_problem\", \"title\": \"Process Service Error\", \"detail\": \"Authorization failed.\", \"status\": 500, \"o:errorCode\": \"authorizationFailed\" }  This will happen even if you manually allow anonymous access and give anonymous access credentials to the Process Applications backend.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-11",
+    "errorMessage": "Service connection using self-signed certificate not working",
+    "stackTrace": "Your staged or published apps might stop working if they use service connections with self-signed certificates and the certificates have expired. Any certificates issued after 2020-09-01T00:00:00.00Z will automatically expire 398 days after they have been issued. If your apps use certificates issued before 2020-09-01T00:00:00.00Z, the certificates will not expire, but you should update them with a newer certificate.  To avoid disruptions, you should plan regular updates to refresh the self-signed certificates before they expire (for example, every 6 months). It's not recommended to use self-signed certificates in production apps.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-12",
+    "errorMessage": "Authentication failing on OIC service connections",
+    "stackTrace": "When creating a service connection to an OIC Integration REST API, connecting to the service might fail if you select an authentication mechanism that is not permitted by the OIC Integration REST service's settings.  If the connection to the service fails with a 401 HTTP error code, check if the authentication settings for the VB Service Connection match the OIC Rest Trigger's Security settings:  If the VB Service Connection uses \"Oracle Cloud Account\" or any of the OAuth 2.0 methods for authentication, then the corresponding OIC REST Trigger needs to be configured with either the \"OAuth 2.0\" or \"OAuth 2.0 OR Basic\" options. If the VB Service Connection uses \"Basic\" for authentication, then the corresponding OIC REST Trigger needs to be configured with either the \"Basic\" or \"OAuth 2.0 OR Basic\" options",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-13",
+    "errorMessage": "New business objects not selected in Business Object Resource Editor",
+    "stackTrace": "When you create new business objects from a file (CSV, zip, xls) using the Import Business Object wizard, the business objects might not be selected when you open the Business Object Resource Editor in the Endpoints tab, but the available new business objects should be selected by default when you open the editor.  If the business objects are not selected by default:  Reload your browser. After reloading the browser, the business objects should be selected in the Business Object Resource Editor. Choose the business objects you want to expose. Click Apply Defaults, then click Save.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-14",
+    "errorMessage": "Problems when saving business object diagram as image",
+    "stackTrace": "When trying to save a business object diagram as an image, you might see the following issues:  It's not possible to save the diagram as a PNG image. When saving the diagram as a SVG file, the icons representing the business object field types are not displayed correctly in the saved image. All the icons are rendered as \"broken\" images. The workaround to save a diagram where the field icons are intact is to use the zoom in/out tools to make the entire diagram visible, and then to take a screen shot of the diagram using a screen capture application.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-15",
+    "errorMessage": "Error using service connections based on business object URL",
+    "stackTrace": "When creating or updating a service connection based on a business object URL, you might find that the service connection URL is automatically updated to vb-catalog://backends/ics or vb-catalog://backends/process if you have an OIC or Process instance configured as backends.  Backends are now mandatory for service connections, so Visual Builder tries to match the URL with any existing backend, and uses that backend if found. As a result, if OIC, Process, and business object URLs all point to the same instance, Visual Builder might try to use the same backend. To avoid this, you can do the following:  Create a backend called BOBackend with the base URL of the business objects (for example, https://someinstance...oraclecloud.com) and the proper authentication and connection type. (To avoid problems, you might want to consult the service connection you are connecting to, and provide the same details in the backend). Then do the following: For existing service connections based on business objects, replace the URL segment that is based on the BOBackend. An example is shown below, but your URL might be different and have more or fewer segments: \"servers\": [     { \"url\": \"https://someinstance...oraclecloud.com/ic/builder/rt/someapp/1.0.4/resources\",  \"description\" : \"something\"\"x-vb\": {          \"authentication\": {              \"authenticated\": { \"type\": \"basic\", \"credentials\": \"vb_xxx\" }            }       }     }  ], Change it to this:  \"servers\": [    { \"url\": \"vb-catalog://backends/BOBackend/ic/builder/rt/someapp/1.0.4/resources\"    } ], Test the service connection in the Test tab to confirm it works as expected.  For creating new service connections based on business objects, first select the BOBackend in the URL, and then add the remaining part comprising the URL.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-16",
+    "errorMessage": "Creating new record using REST API results in empty response",
+    "stackTrace": "If your Visual Builder instance is configured to use another Oracle DB, when you use the REST API to insert a new record in a table you might see a response that contains no data, even though the insert is successful and the call returns the expected status (HTTP 201).  This can happen when a business object has a primary key field defined as <column name> NUMBER GENERATED BY DEFAULT ON NULL AS IDENTITY ....  The workaround is to perform the following steps to modify the business object's primary key field:  Open the application in Visual Builder. Open the business object you want to modify. Open the Fields tab. Select the primary key field. In the Sequence Name dropdown list, select the appropriate internal sequence used by the database to create new records in the table. If the database schema has only one table with an identity column, it should be clear which sequence to select (the sequence will have an internal looking name). If there is more than one table with an identity column, you can use the following query to locate the sequence the database created for the column:  select data_default from SYS.user_tab_columns where table_name = <table name used by the BO> and column_name = <primary key field>;  After the Sequence Name property is set to the the correct sequence, Visual Builder will select nextval from that sequence before inserting the record into the table, and will use that value in the primary key column.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-17",
+    "errorMessage": "Error when creating new version of application",
+    "stackTrace": "You might see errors or have problems when creating new versions of an app if the app has too many obsolete versions. Visual Builder limits the total number of versions of an app to 100, which includes development, staged and obsolete versions. You cannot create a new version if it will result in the limit being exceeded.  Each time you publish a new version of an app, the previous version becomes obsolete. On the Visual Builder Home page, you can see the total number of app versions in the Versions column, next to the number of the current version.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-18",
+    "errorMessage": "Create service connection wizards ignore secure header setting",
+    "stackTrace": "If you are using a backend that is configured with a secure header, and you create a service connection on the backend, you might receive an error when testing the connection. The wizards for creating a service connection from an endpoint and from a specification ignore the security header, which can result in the connection failing.  The workaround is to create and save an example response in the Create Service Connection from Endpoint wizard:  Open the Create Service Connection from Endpoint wizard. Enter the endpoint and other connection details. Open the Response tab. In the Example text area, enter an example response (for example, {\"test\" : \"abc\"}), and then click Save Example. This creates a schema for the example. Click Create to create the service connection. If you now test the connection to the endpoint, the connection is successful, and you can save the response. You can now save the actual response, which will correctly update the response schema of the service connection.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-19",
+    "errorMessage": "Camera component no longer offers camera capture option on Chrome browser on Android 14",
+    "stackTrace": "When running an app in the Chrome browser on devices running Android 14, invoking the camera component from the app to capture a photo might not work correctly.  The workaround is to edit the File Picker's Accept property in the app to add \"text/plain\", and then republish the app.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-20",
+    "errorMessage": "Error creating service connection to Integration Applications from catalog",
+    "stackTrace": "When creating a service connection to Integration Applications from the catalog, creating the connection might fail with the following error:  Error \"Type 'Operation' can't map property 'X-OIC-CONSUMPTION-WARNING-CASDK-0063' to a valid type. Verify that the property name is valid in this context.  The error is caused by an invalid swagger coming from OIC. The invalid swagger prevents Visual Builder from creating the service connection.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-21",
+    "errorMessage": "Staging PWA app fails in government realm",
+    "stackTrace": "Staging a PWA app might fail on instances in government realms.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-22",
+    "errorMessage": "nvoking OIC REST API from Service Connection returns 404 error",
+    "stackTrace": "If you are using version 119 or later of the Chrome browser, you might see the following error when trying to create a Service Connection to OIC integrations (using the \"Select from Catalog\") option:  \"Error: \"Network Error Unable to read the integrations from [vb-catalog://backends/ics/ic/api/integration/v1/integrations]. Please check the settings for Integration Applications and verify that Integration Applications server is working.\"  The reason for the error is that starting with version 119, the Chrome browser treats cross-domain redirects and CORS differently than earlier versions.  If you encounter the error, navigate to the \"Integration Applications\" backend and change the Connection Type to \"Always use proxy, irrespective of CORS support\" to eliminate the CORS issue.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-23",
+    "errorMessage": "ntegration endpoint not listed in catalog",
+    "stackTrace": "When creating a service connection from the catalog for Oracle Integrations, the endpoint you want to use might not be listed if you have more than 100 active integrations. Visual Builder currently fetches the first 100 integrations in the catalog, and then extracts the integrations that have a valid swagger endpoint to be displayed in the catalog.  If your integration isn't listed, the workaround for creating the service connection is to create it from a specification:  Locate the metadata URL for the OIC integration, and open the metadata URL in the browser. The metadata page will provide you with the swagger URL (the metadata URL will be similar to https://<OIC base URL>/ic/api/integration/v1/flows/rest/ECHO/1.0/metadata, and the swagger URL will be similar to https://<OIC base URL>/ic/api/integration/v1/flows/rest/ECHO/1.0/metadata/swagger). Note that Visual Builder can only consume swagger-based integrations directly via the catalog or the specification flow. In Visual Builder, open the Create Service Connection wizard, and then select Define by Specification. Enter a service name, and then select OpenAPI/Swagger as the API Type. In the URL field, select the \"Integration Applications\" backend (backends/ics), and then enter the rest of the URL after the backend (for example, ic/api/integration/v1/flows/rest/ECHO/1.0/metadata/swagger). You can click the info icon to see the full form of the URL. In the Metadata Retrieval Option field, select Copy full OpenAPI to the application. Click Create. If you see a dialog \"Compute missing operation ids\", this means Visual Builder has detected operation ids missing from the swagger or openapi from OIC. Select \"Compute missing operation ids\", and then proceed.  You can check if the created service connection works in the Test tab.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-24",
+    "errorMessage": "CORS error when connecting to Oracle Integration",
+    "stackTrace": "If you are using version 119 or later of the Chrome browser, you might see the following error when trying to configure a connection to services in Oracle Integration:  \"Error: Cross-origin resource sharing error: Missing Allow origin header\"  The reason for the error is that starting with version 119, the Chrome browser treats cross-domain redirects and CORS differently than earlier versions.  If you encounter the error, navigate to the \"Integration Applications\" backend and change the Connection Type to \"Always use proxy, irrespective of CORS support\" to eliminate the CORS issue.",
+    "errorType": "Visual Builder"
+  },
+  {
+    "errorCode": "VB-KNOWN-25",
+    "errorMessage": "Character limit in Process-related payloads",
+    "stackTrace": "Starting with Visual Builder 23.07, the size of Oracle Integration Generation 2 Process-related payloads is limited to one million characters. If your Process-related payload is near or greater than the size limit, you should use the Process Cloud Service REST API directly to avoid the size limitation.  Support for Process is not available in Visual Builder instances enabled in Oracle Integration 3.",
+    "errorType": "Visual Builder"
+  }
+  {
+    "errorCode": "VBSTUDIO-KNOWN-01",
+    "errorMessage": "// Add resource",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-02",
+    "errorMessage": "1/20\n\nLogging and Tracing not supported in Visual Builder Studio\nNew business objects not selected in Business Object Resource Editor",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-03",
+    "errorMessage": "12/20\n\nCannot connect to OIC Gen 3 services",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-04",
+    "errorMessage": "About Oracle\nContact Us\nProducts A-Z",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-05",
+    "errorMessage": "Builder can only consume swagger-based integrations directly via the catalog or the specification",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-06",
+    "errorMessage": "CORS error when connecting to Oracle Integration",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-07",
+    "errorMessage": "Camera component no longer offers camera capture option on Chrome browser on\nAndroid 14",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-08",
+    "errorMessage": "Cannot connect to new service after creating backend in Create Service Connection\nwizard",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-09",
+    "errorMessage": "Cannot switch theme in application settings",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-10",
+    "errorMessage": "Character limit in Process-related payloads",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-11",
+    "errorMessage": "Cloud /\nCloud Platform /\nVisual Builder Studio\nKnown Issues for Oracle Visual Builder Studio\n3 Known Issues",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-12",
+    "errorMessage": "Cookie Preferences\nAd Choices",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-13",
+    "errorMessage": "Create service connection wizards ignore secure header setting",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-14",
+    "errorMessage": "Creating new record using REST API results in empty response",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-15",
+    "errorMessage": "Display logic not working with field identifiers",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-16",
+    "errorMessage": "Display logic not working with field identifiers\nComponent not loading in page after upgrading application",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-17",
+    "errorMessage": "Error 502 Bad Gateway when deploying visual app",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-18",
+    "errorMessage": "Error creating service connection to Integration Applications from catalog",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-19",
+    "errorMessage": "Error on performing any Process related action with anonymous access",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-20",
+    "errorMessage": "Error using service connections based on business object URL",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-21",
+    "errorMessage": "Filter field populated with cached data",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-22",
+    "errorMessage": "Integration endpoint not listed in catalog",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-23",
+    "errorMessage": "Issues\nComponent not loading in page after upgrading application\nFilter field populated with cached data\nJavaScript tab not visible in Designer",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-24",
+    "errorMessage": "JavaScript tab not visible in Designer",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-25",
+    "errorMessage": "Known Issues",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-26",
+    "errorMessage": "Known Issues for Visual Builder Studio\nSearch",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-27",
+    "errorMessage": "Known Issues in Creating and Building Projects",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-28",
+    "errorMessage": "Known Issues in Service Connections",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-29",
+    "errorMessage": "Known Issues in the Page Designer",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-30",
+    "errorMessage": "Loading JSON using Text module stops Persistence Toolkit working",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-31",
+    "errorMessage": "Logging and Tracing not supported in Visual Builder Studio",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-32",
+    "errorMessage": "Name of free VM executor template is incorrect",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-33",
+    "errorMessage": "Oracle Cloud Applications instance is connected to your VB Studio instance in the same identity domain via Basic",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-34",
+    "errorMessage": "Other Known Issues in Visual Builder Studio",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-35",
+    "errorMessage": "Problems when saving business object diagram as image",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-36",
+    "errorMessage": "Service connections not working after migration to OIC Gen 3",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-37",
+    "errorMessage": "The workaround is to create and save an example response in the Create Service Connection from Endpoint",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-38",
+    "errorMessage": "The workaround to save a diagram where the field icons are intact is to use the zoom in/out tools to make the",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-39",
+    "errorMessage": "This will happen even if you manually allow anonymous access and give anonymous access credentials to the",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-40",
+    "errorMessage": "VM agent fails when running build",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-41",
+    "errorMessage": "Visual Builder upgrade tools might not be equipped to correctly upgrade the application when invalid JSON is",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-42",
+    "errorMessage": "Vulnerability Analysis fails during Maven build job",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-43",
+    "errorMessage": "Workspace delinked from Oracle Cloud Application environments with Basic\nAuth/OAuth",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  },
+  {
+    "errorCode": "VBSTUDIO-KNOWN-44",
+    "errorMessage": "metadata page will provide you with the swagger URL (the metadata URL will be similar to",
+    "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
+    "errorType": "Visual Builder Studio"
+  }
+]
