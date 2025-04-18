@@ -1588,7 +1588,7 @@
     "errorMessage": "An error occurred while calculating size of Error Instances for Error\nMessage Details.",
     "stackTrace": "oracle.ics.webconsole.common.resource.WebConsoleMessageKeys.ERRORHOSPIT\nAL_ED_SIZE_CALCULATE_ERROR",
     "errorType": "OIC"
-  }
+  },
   {
     "errorCode": "ORA-06512",
     "errorMessage": "PL/SQL: Error in execution block or procedure.",
@@ -1630,7 +1630,7 @@
     "errorMessage": "Authentication failure when using OCI Object Storage action in migrated tenancy.",
     "stackTrace": "oracle.tip.tools.adapters.cloud.api.CloudAdapterException",
     "errorType": "OCI"
-  }
+  },
   {
     "errorCode": "VB-OIC-404",
     "errorMessage": "Invoking OIC REST API from Service Connection returns 404 error",
@@ -1684,419 +1684,488 @@
     "errorMessage": "Service connection using self-signed certificate not working",
     "stackTrace": "Expired self-signed certificates after 398 days cause app failure unless renewed",
     "errorType": "Visual Builder"
-  }
+  },
   {
-    "errorCode": "VB-KNOWN-01",
+    "errorCode": null,
     "errorMessage": "Action required for Digital Customer Service customers 20C-23A",
     "stackTrace": "Digital Customer Service customers who created visual applications with VB Studio from 20C through 23A will need to take action after migrating to VB Studio 24.10 (24D).  This migration disables the implicit grant for service connections, which means data can\u2019t be loaded into your visual app. You\u2019ll know you\u2019re affected if you see a persistent gray loading indicator for the service request list. To resolve this, change the authentication type used in the Oracle Cloud Applications backend and service connection: In your visual application, open the Services pane in the Navigator. Click Backends. Click Oracle Cloud Applications, then the Servers tab. Find the server Production Knowledge Service with user proxy and click the pencil icon. In the Authentication for Logged-In Users drop-down list, select Oracle Cloud Account. Click Save. Additionally, if you built a visual application that depends on the 23A knowledge-service service connection, you\u2019ll need to change the authentication type there, too: In the Navigator's Services pane, click Service Connections. Click knowledge-service, then the Servers tab. Click the pencil icon next to Production Knowledge Service with user proxy. In the Authentication for Logged-In Users drop-down list, select Oracle Cloud Account. Click Save.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-01"
   },
   {
-    "errorCode": "VB-KNOWN-02",
+    "errorCode": null,
     "errorMessage": "Component not loading in page after upgrading application",
     "stackTrace": "After upgrading your application, some components might not load data correctly when bound to an ADP variable, if the application/page's JSON / JavaScript files contain configurations or code that returns invalid JSON data.  ADP data in a JSON file needs to be assigned a valid JSON value. ADP data that is assigned a value from the result of a previous action (for example, a call module action or REST action), must also be valid JSON. When a non-JSON value (such as JavaScript values like NaN or Infinity) is provided, you should choose the correct JSON value that should be used and then replace it.  Visual Builder upgrade tools might not be equipped to correctly upgrade the application when invalid JSON is present.  The workaround is to ensure that all values in JSON files are valid JSON.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-02"
   },
   {
-    "errorCode": "VB-KNOWN-03",
+    "errorCode": null,
     "errorMessage": "Filter field populated with cached data",
     "stackTrace": "When using the Filter field in the Designer, Chrome's Autofill form data feature might populate the field in some panels and dialogs with cached data. For example, when using the Filter field in the Navigator, the field might display your cached email address. If cached data is appearing in the field, clear Chrome's cached Autofill form data:  Click the three dots at the top right of the Chrome browser window to open the Chrome options menu. Select More tools > Clear browsing data in the menu. Open the Advanced tab in the Clear browsing data dialog box. Select All Time in the Time range dropdown list. Select Autofill form data in the list. Click Clear Data.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-03"
   },
   {
-    "errorCode": "VB-KNOWN-04",
+    "errorCode": null,
     "errorMessage": "Groovy log messages not displayed though tracing is enabled",
     "stackTrace": "The log messages for Groovy scripts in your application might not appear in the Groovy Logs tab in the Trace pane, though tracing is enabled.  If the Groovy logs are not appearing in the Trace pane, open the Logs pane, and then click Enable Logging. The Groovy logs will now be displayed in the Trace pane when you enable tracing.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-04"
   },
   {
-    "errorCode": "VB-KNOWN-05",
+    "errorCode": null,
     "errorMessage": "Update deprecated Oracle SaaS application template theme",
     "stackTrace": "The sample SaaS R13 LightBlue theme (ApplicationsCloudUITheme) is deprecated as it relies on the deprecated Alta theme. If any of your existing apps use this theme, you are strongly encouraged to convert them to use the Redwood or Stable themes, and then customize the theme using CSS variables.  The sample SaaS R13 LightBlue theme update for Oracle Visual Builder 22.10 is the final planned update.  For existing apps that still use the SaaS R13 LightBlue theme, you'll need to apply the update before running the app with Oracle Visual Builder 22.10. To upgrade the theme, download the updated version of the Oracle SaaS R13 theme files (ApplicationsCloudUI-n.n.n.zip) from the vbcs-samples repository on GitHub, import the updated theme resources into your application, and select the updated theme in your web app's Settings editor. For details on the upgrade steps, see Upgrading the Sample R13 SaaS LightBlue Theme for Visual Builder.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-05"
   },
   {
-    "errorCode": "VB-KNOWN-06",
+    "errorCode": null,
     "errorMessage": "Cannot switch theme in application settings",
     "stackTrace": "You might not be able to upgrade an application's theme because the theme dropdown list is not available or is not working properly.  If you run into this situation, the workaround is to upgrade the application:  Upgrade the app version to the next higher version (for example, from version 21.07 to 21.10). Upgrade the application's theme.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-06"
   },
   {
-    "errorCode": "VB-KNOWN-07",
+    "errorCode": null,
     "errorMessage": "Visual Builder not listed in Oracle Cloud Infrastructure Console",
     "stackTrace": "When trying to open the Visual Builder instances page in the Oracle Cloud Infrastructure Console, you might not see Visual Builder listed in the navigation menu.  To open the Visual Builder instances page:  Confirm you're signed in to the Oracle Cloud Infrastructure Console using your IDCS account, and that you've been assigned the required role. When signed in with an IDCS account, your user name will be similar to oracleidentitycloudservice/exampleemail@example.com if you open the user menu.  Click OCI Classic Services in the navigation menu, then click Visual Builder.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-07"
   },
   {
-    "errorCode": "VB-KNOWN-08",
+    "errorCode": null,
     "errorMessage": "Loading JSON using Text module stops Persistence Toolkit working",
     "stackTrace": "If you add JSON resources to your app, as shown in these code snippets, the Oracle Offline Persistence Toolkit stops working.  // Add resource define([   'text!resources2/js/test.json' ], function(  // Where resources2 is defined as:   \"requirejs\": {         \"paths\": {             \"resources2\": \"{{ location.pathname + (window.vbInitConfig.BASE_URL_TOKEN ?                            window.vbInitConfig.BASE_URL_TOKEN + '/' : '') + 'resources'}}\"         }     }, The following error occurs when the app tries to load the Oracle Offline Persistence Toolkit.  Failed to load offline handler from /ic/builder/rt/otf/2.0/webApps/foo/ version_279023731935549663/app-flow.js: Error: importScripts failed for /ic/builder/rt/otf/2.0/ webApps/foo/version_279023731935549663/app-flow.js at /ic/builder/rt/otf/2.0/webApps/foo/versio n_279023731935549663/app-flow.js https://requirejs.org/docs/errors.html#importscripts Two possible workarounds exist to address this issue:  Wrap the JSON file in a JavaScript file and load the JavaScript file. Use the Fetch API to load the JSON file in the offline handler.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-08"
   },
   {
-    "errorCode": "VB-KNOWN-09",
+    "errorCode": null,
     "errorMessage": "Error testing connection to IDCS REST APIs with OAuth User Assertion Authentication type",
     "stackTrace": "Testing a service connection representing an IDCS REST API with OAuth 2 User Assertion Authentication type in the Test tab will not work. In doing so, you will face an error like:  { \"type\": \"abcs://proxy_problem/oauth/design_allowed_scope\", \"title\": \"Invalid URI\", \"detail\": \"Cannot process \\\"https://<idcs>.identity.oraclecloud.com/admin/v1/Me\\\"\", \"status\": 400, \"o:errorDetails\": [ { \"type\": \"abcs://proxy_problem/auth/scope/update\", \"title\": \"Invalid service scope\",       \"detail\": \"Cannot process service scope \\\"urn:opc:idm:t.user.me\\\" in IDCS, for URI \\\" {1} \\\"\", \"status\": 400 } ] } This limitation only exists in the Service Tester (Test tab). Creating a web app and calling the same REST API from the web app works without any issues.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-09"
   },
   {
-    "errorCode": "VB-KNOWN-10",
+    "errorCode": null,
     "errorMessage": "Error on performing any Process related action with anonymous access",
     "stackTrace": "Process related tasks are not supported with anonymous access. If you try to access any process related tasks (for example, Start Process/Perform Task) from a web or mobile app having anonymous access, you might run into this error.  { \"type\": \"vbcs://process_service_problem\", \"title\": \"Process Service Error\", \"detail\": \"Authorization failed.\", \"status\": 500, \"o:errorCode\": \"authorizationFailed\" }  This will happen even if you manually allow anonymous access and give anonymous access credentials to the Process Applications backend.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-10"
   },
   {
-    "errorCode": "VB-KNOWN-11",
+    "errorCode": null,
     "errorMessage": "Service connection using self-signed certificate not working",
     "stackTrace": "Your staged or published apps might stop working if they use service connections with self-signed certificates and the certificates have expired. Any certificates issued after 2020-09-01T00:00:00.00Z will automatically expire 398 days after they have been issued. If your apps use certificates issued before 2020-09-01T00:00:00.00Z, the certificates will not expire, but you should update them with a newer certificate.  To avoid disruptions, you should plan regular updates to refresh the self-signed certificates before they expire (for example, every 6 months). It's not recommended to use self-signed certificates in production apps.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-11"
   },
   {
-    "errorCode": "VB-KNOWN-12",
+    "errorCode": null,
     "errorMessage": "Authentication failing on OIC service connections",
     "stackTrace": "When creating a service connection to an OIC Integration REST API, connecting to the service might fail if you select an authentication mechanism that is not permitted by the OIC Integration REST service's settings.  If the connection to the service fails with a 401 HTTP error code, check if the authentication settings for the VB Service Connection match the OIC Rest Trigger's Security settings:  If the VB Service Connection uses \"Oracle Cloud Account\" or any of the OAuth 2.0 methods for authentication, then the corresponding OIC REST Trigger needs to be configured with either the \"OAuth 2.0\" or \"OAuth 2.0 OR Basic\" options. If the VB Service Connection uses \"Basic\" for authentication, then the corresponding OIC REST Trigger needs to be configured with either the \"Basic\" or \"OAuth 2.0 OR Basic\" options",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-12"
   },
   {
-    "errorCode": "VB-KNOWN-13",
+    "errorCode": null,
     "errorMessage": "New business objects not selected in Business Object Resource Editor",
     "stackTrace": "When you create new business objects from a file (CSV, zip, xls) using the Import Business Object wizard, the business objects might not be selected when you open the Business Object Resource Editor in the Endpoints tab, but the available new business objects should be selected by default when you open the editor.  If the business objects are not selected by default:  Reload your browser. After reloading the browser, the business objects should be selected in the Business Object Resource Editor. Choose the business objects you want to expose. Click Apply Defaults, then click Save.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-13"
   },
   {
-    "errorCode": "VB-KNOWN-14",
+    "errorCode": null,
     "errorMessage": "Problems when saving business object diagram as image",
     "stackTrace": "When trying to save a business object diagram as an image, you might see the following issues:  It's not possible to save the diagram as a PNG image. When saving the diagram as a SVG file, the icons representing the business object field types are not displayed correctly in the saved image. All the icons are rendered as \"broken\" images. The workaround to save a diagram where the field icons are intact is to use the zoom in/out tools to make the entire diagram visible, and then to take a screen shot of the diagram using a screen capture application.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-14"
   },
   {
-    "errorCode": "VB-KNOWN-15",
+    "errorCode": null,
     "errorMessage": "Error using service connections based on business object URL",
     "stackTrace": "When creating or updating a service connection based on a business object URL, you might find that the service connection URL is automatically updated to vb-catalog://backends/ics or vb-catalog://backends/process if you have an OIC or Process instance configured as backends.  Backends are now mandatory for service connections, so Visual Builder tries to match the URL with any existing backend, and uses that backend if found. As a result, if OIC, Process, and business object URLs all point to the same instance, Visual Builder might try to use the same backend. To avoid this, you can do the following:  Create a backend called BOBackend with the base URL of the business objects (for example, https://someinstance...oraclecloud.com) and the proper authentication and connection type. (To avoid problems, you might want to consult the service connection you are connecting to, and provide the same details in the backend). Then do the following: For existing service connections based on business objects, replace the URL segment that is based on the BOBackend. An example is shown below, but your URL might be different and have more or fewer segments: \"servers\": [     { \"url\": \"https://someinstance...oraclecloud.com/ic/builder/rt/someapp/1.0.4/resources\",  \"description\" : \"something\"\"x-vb\": {          \"authentication\": {              \"authenticated\": { \"type\": \"basic\", \"credentials\": \"vb_xxx\" }            }       }     }  ], Change it to this:  \"servers\": [    { \"url\": \"vb-catalog://backends/BOBackend/ic/builder/rt/someapp/1.0.4/resources\"    } ], Test the service connection in the Test tab to confirm it works as expected.  For creating new service connections based on business objects, first select the BOBackend in the URL, and then add the remaining part comprising the URL.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-15"
   },
   {
-    "errorCode": "VB-KNOWN-16",
+    "errorCode": null,
     "errorMessage": "Creating new record using REST API results in empty response",
     "stackTrace": "If your Visual Builder instance is configured to use another Oracle DB, when you use the REST API to insert a new record in a table you might see a response that contains no data, even though the insert is successful and the call returns the expected status (HTTP 201).  This can happen when a business object has a primary key field defined as <column name> NUMBER GENERATED BY DEFAULT ON NULL AS IDENTITY ....  The workaround is to perform the following steps to modify the business object's primary key field:  Open the application in Visual Builder. Open the business object you want to modify. Open the Fields tab. Select the primary key field. In the Sequence Name dropdown list, select the appropriate internal sequence used by the database to create new records in the table. If the database schema has only one table with an identity column, it should be clear which sequence to select (the sequence will have an internal looking name). If there is more than one table with an identity column, you can use the following query to locate the sequence the database created for the column:  select data_default from SYS.user_tab_columns where table_name = <table name used by the BO> and column_name = <primary key field>;  After the Sequence Name property is set to the the correct sequence, Visual Builder will select nextval from that sequence before inserting the record into the table, and will use that value in the primary key column.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-16"
   },
   {
-    "errorCode": "VB-KNOWN-17",
+    "errorCode": null,
     "errorMessage": "Error when creating new version of application",
     "stackTrace": "You might see errors or have problems when creating new versions of an app if the app has too many obsolete versions. Visual Builder limits the total number of versions of an app to 100, which includes development, staged and obsolete versions. You cannot create a new version if it will result in the limit being exceeded.  Each time you publish a new version of an app, the previous version becomes obsolete. On the Visual Builder Home page, you can see the total number of app versions in the Versions column, next to the number of the current version.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-17"
   },
   {
-    "errorCode": "VB-KNOWN-18",
+    "errorCode": null,
     "errorMessage": "Create service connection wizards ignore secure header setting",
     "stackTrace": "If you are using a backend that is configured with a secure header, and you create a service connection on the backend, you might receive an error when testing the connection. The wizards for creating a service connection from an endpoint and from a specification ignore the security header, which can result in the connection failing.  The workaround is to create and save an example response in the Create Service Connection from Endpoint wizard:  Open the Create Service Connection from Endpoint wizard. Enter the endpoint and other connection details. Open the Response tab. In the Example text area, enter an example response (for example, {\"test\" : \"abc\"}), and then click Save Example. This creates a schema for the example. Click Create to create the service connection. If you now test the connection to the endpoint, the connection is successful, and you can save the response. You can now save the actual response, which will correctly update the response schema of the service connection.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-18"
   },
   {
-    "errorCode": "VB-KNOWN-19",
+    "errorCode": null,
     "errorMessage": "Camera component no longer offers camera capture option on Chrome browser on Android 14",
     "stackTrace": "When running an app in the Chrome browser on devices running Android 14, invoking the camera component from the app to capture a photo might not work correctly.  The workaround is to edit the File Picker's Accept property in the app to add \"text/plain\", and then republish the app.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-19"
   },
   {
-    "errorCode": "VB-KNOWN-20",
+    "errorCode": null,
     "errorMessage": "Error creating service connection to Integration Applications from catalog",
     "stackTrace": "When creating a service connection to Integration Applications from the catalog, creating the connection might fail with the following error:  Error \"Type 'Operation' can't map property 'X-OIC-CONSUMPTION-WARNING-CASDK-0063' to a valid type. Verify that the property name is valid in this context.  The error is caused by an invalid swagger coming from OIC. The invalid swagger prevents Visual Builder from creating the service connection.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-20"
   },
   {
-    "errorCode": "VB-KNOWN-21",
+    "errorCode": null,
     "errorMessage": "Staging PWA app fails in government realm",
     "stackTrace": "Staging a PWA app might fail on instances in government realms.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-21"
   },
   {
-    "errorCode": "VB-KNOWN-22",
+    "errorCode": null,
     "errorMessage": "nvoking OIC REST API from Service Connection returns 404 error",
     "stackTrace": "If you are using version 119 or later of the Chrome browser, you might see the following error when trying to create a Service Connection to OIC integrations (using the \"Select from Catalog\") option:  \"Error: \"Network Error Unable to read the integrations from [vb-catalog://backends/ics/ic/api/integration/v1/integrations]. Please check the settings for Integration Applications and verify that Integration Applications server is working.\"  The reason for the error is that starting with version 119, the Chrome browser treats cross-domain redirects and CORS differently than earlier versions.  If you encounter the error, navigate to the \"Integration Applications\" backend and change the Connection Type to \"Always use proxy, irrespective of CORS support\" to eliminate the CORS issue.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-22"
   },
   {
-    "errorCode": "VB-KNOWN-23",
+    "errorCode": null,
     "errorMessage": "ntegration endpoint not listed in catalog",
     "stackTrace": "When creating a service connection from the catalog for Oracle Integrations, the endpoint you want to use might not be listed if you have more than 100 active integrations. Visual Builder currently fetches the first 100 integrations in the catalog, and then extracts the integrations that have a valid swagger endpoint to be displayed in the catalog.  If your integration isn't listed, the workaround for creating the service connection is to create it from a specification:  Locate the metadata URL for the OIC integration, and open the metadata URL in the browser. The metadata page will provide you with the swagger URL (the metadata URL will be similar to https://<OIC base URL>/ic/api/integration/v1/flows/rest/ECHO/1.0/metadata, and the swagger URL will be similar to https://<OIC base URL>/ic/api/integration/v1/flows/rest/ECHO/1.0/metadata/swagger). Note that Visual Builder can only consume swagger-based integrations directly via the catalog or the specification flow. In Visual Builder, open the Create Service Connection wizard, and then select Define by Specification. Enter a service name, and then select OpenAPI/Swagger as the API Type. In the URL field, select the \"Integration Applications\" backend (backends/ics), and then enter the rest of the URL after the backend (for example, ic/api/integration/v1/flows/rest/ECHO/1.0/metadata/swagger). You can click the info icon to see the full form of the URL. In the Metadata Retrieval Option field, select Copy full OpenAPI to the application. Click Create. If you see a dialog \"Compute missing operation ids\", this means Visual Builder has detected operation ids missing from the swagger or openapi from OIC. Select \"Compute missing operation ids\", and then proceed.  You can check if the created service connection works in the Test tab.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-23"
   },
   {
-    "errorCode": "VB-KNOWN-24",
+    "errorCode": null,
     "errorMessage": "CORS error when connecting to Oracle Integration",
     "stackTrace": "If you are using version 119 or later of the Chrome browser, you might see the following error when trying to configure a connection to services in Oracle Integration:  \"Error: Cross-origin resource sharing error: Missing Allow origin header\"  The reason for the error is that starting with version 119, the Chrome browser treats cross-domain redirects and CORS differently than earlier versions.  If you encounter the error, navigate to the \"Integration Applications\" backend and change the Connection Type to \"Always use proxy, irrespective of CORS support\" to eliminate the CORS issue.",
-    "errorType": "Visual Builder"
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-24"
   },
   {
-    "errorCode": "VB-KNOWN-25",
+    "errorCode": null,
     "errorMessage": "Character limit in Process-related payloads",
     "stackTrace": "Starting with Visual Builder 23.07, the size of Oracle Integration Generation 2 Process-related payloads is limited to one million characters. If your Process-related payload is near or greater than the size limit, you should use the Process Cloud Service REST API directly to avoid the size limitation.  Support for Process is not available in Visual Builder instances enabled in Oracle Integration 3.",
-    "errorType": "Visual Builder"
-  }
+    "errorType": "Visual Builder",
+    "internalId": "vb-known-25"
+  },
   {
-    "errorCode": "VBSTUDIO-KNOWN-01",
+    "errorCode": null,
     "errorMessage": "// Add resource",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-01"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-02",
+    "errorCode": null,
     "errorMessage": "1/20\n\nLogging and Tracing not supported in Visual Builder Studio\nNew business objects not selected in Business Object Resource Editor",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-02"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-03",
+    "errorCode": null,
     "errorMessage": "12/20\n\nCannot connect to OIC Gen 3 services",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-03"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-04",
+    "errorCode": null,
     "errorMessage": "About Oracle\nContact Us\nProducts A-Z",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-04"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-05",
+    "errorCode": null,
     "errorMessage": "Builder can only consume swagger-based integrations directly via the catalog or the specification",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-05"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-06",
+    "errorCode": null,
     "errorMessage": "CORS error when connecting to Oracle Integration",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-06"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-07",
+    "errorCode": null,
     "errorMessage": "Camera component no longer offers camera capture option on Chrome browser on\nAndroid 14",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-07"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-08",
+    "errorCode": null,
     "errorMessage": "Cannot connect to new service after creating backend in Create Service Connection\nwizard",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-08"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-09",
+    "errorCode": null,
     "errorMessage": "Cannot switch theme in application settings",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-09"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-10",
+    "errorCode": null,
     "errorMessage": "Character limit in Process-related payloads",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-10"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-11",
+    "errorCode": null,
     "errorMessage": "Cloud /\nCloud Platform /\nVisual Builder Studio\nKnown Issues for Oracle Visual Builder Studio\n3 Known Issues",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-11"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-12",
+    "errorCode": null,
     "errorMessage": "Cookie Preferences\nAd Choices",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-12"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-13",
+    "errorCode": null,
     "errorMessage": "Create service connection wizards ignore secure header setting",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-13"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-14",
+    "errorCode": null,
     "errorMessage": "Creating new record using REST API results in empty response",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-14"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-15",
+    "errorCode": null,
     "errorMessage": "Display logic not working with field identifiers",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-15"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-16",
+    "errorCode": null,
     "errorMessage": "Display logic not working with field identifiers\nComponent not loading in page after upgrading application",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-16"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-17",
+    "errorCode": null,
     "errorMessage": "Error 502 Bad Gateway when deploying visual app",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-17"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-18",
+    "errorCode": null,
     "errorMessage": "Error creating service connection to Integration Applications from catalog",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-18"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-19",
+    "errorCode": null,
     "errorMessage": "Error on performing any Process related action with anonymous access",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-19"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-20",
+    "errorCode": null,
     "errorMessage": "Error using service connections based on business object URL",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-20"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-21",
+    "errorCode": null,
     "errorMessage": "Filter field populated with cached data",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-21"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-22",
+    "errorCode": null,
     "errorMessage": "Integration endpoint not listed in catalog",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-22"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-23",
+    "errorCode": null,
     "errorMessage": "Issues\nComponent not loading in page after upgrading application\nFilter field populated with cached data\nJavaScript tab not visible in Designer",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-23"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-24",
+    "errorCode": null,
     "errorMessage": "JavaScript tab not visible in Designer",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-24"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-25",
+    "errorCode": null,
     "errorMessage": "Known Issues",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-25"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-26",
+    "errorCode": null,
     "errorMessage": "Known Issues for Visual Builder Studio\nSearch",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-26"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-27",
+    "errorCode": null,
     "errorMessage": "Known Issues in Creating and Building Projects",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-27"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-28",
+    "errorCode": null,
     "errorMessage": "Known Issues in Service Connections",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-28"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-29",
+    "errorCode": null,
     "errorMessage": "Known Issues in the Page Designer",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-29"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-30",
+    "errorCode": null,
     "errorMessage": "Loading JSON using Text module stops Persistence Toolkit working",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-30"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-31",
+    "errorCode": null,
     "errorMessage": "Logging and Tracing not supported in Visual Builder Studio",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-31"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-32",
+    "errorCode": null,
     "errorMessage": "Name of free VM executor template is incorrect",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-32"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-33",
+    "errorCode": null,
     "errorMessage": "Oracle Cloud Applications instance is connected to your VB Studio instance in the same identity domain via Basic",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-33"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-34",
+    "errorCode": null,
     "errorMessage": "Other Known Issues in Visual Builder Studio",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-34"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-35",
+    "errorCode": null,
     "errorMessage": "Problems when saving business object diagram as image",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-35"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-36",
+    "errorCode": null,
     "errorMessage": "Service connections not working after migration to OIC Gen 3",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-36"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-37",
+    "errorCode": null,
     "errorMessage": "The workaround is to create and save an example response in the Create Service Connection from Endpoint",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-37"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-38",
+    "errorCode": null,
     "errorMessage": "The workaround to save a diagram where the field icons are intact is to use the zoom in/out tools to make the",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-38"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-39",
+    "errorCode": null,
     "errorMessage": "This will happen even if you manually allow anonymous access and give anonymous access credentials to the",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-39"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-40",
+    "errorCode": null,
     "errorMessage": "VM agent fails when running build",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-40"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-41",
+    "errorCode": null,
     "errorMessage": "Visual Builder upgrade tools might not be equipped to correctly upgrade the application when invalid JSON is",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-41"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-42",
+    "errorCode": null,
     "errorMessage": "Vulnerability Analysis fails during Maven build job",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-42"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-43",
+    "errorCode": null,
     "errorMessage": "Workspace delinked from Oracle Cloud Application environments with Basic\nAuth/OAuth",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-43"
   },
   {
-    "errorCode": "VBSTUDIO-KNOWN-44",
+    "errorCode": null,
     "errorMessage": "metadata page will provide you with the swagger URL (the metadata URL will be similar to",
     "stackTrace": "Refer to Oracle Visual Builder Studio Known Issues documentation for full description.",
-    "errorType": "Visual Builder Studio"
+    "errorType": "Visual Builder Studio",
+    "internalId": "vbstudio-known-44"
   }
 ]
